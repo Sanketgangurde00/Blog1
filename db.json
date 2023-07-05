@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "blog title",
+      "author": "author name",
+      "content": "this is blog content"
+    },
+    {
+      "title": "hi@tcs.com",
+      "author": "new@123",
+      "content": "hello everyone",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<div class="col-sm-6 mx-auto" >
+    <div class="container" align="center">
+        <h3>Edit your Blog here...</h3>
+    </div>
+    <form class="container" [formGroup]="editblog">
+    
+        <div class="mb-3">
+          <label for="exampleInputEmail1">Blog Title</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
+          formControlName="title" value="">
+          
+        </div>
+    
+        <div class="mb-3">
+          <label for="exampleInputPassword1">Author</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" formControlName="author">
+        </div>
+    
+        <div class="mb-3">
+          <label for="content" class="form-label">Content</label>
+          <textarea type="textarea" style="height: 150px;" class="form-control" id="content"
+          formControlName="content"></textarea>
+        </div>
+    
+    
+    
+       
+       
+        <button type="submit" (click)= "Onsubmit()" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
